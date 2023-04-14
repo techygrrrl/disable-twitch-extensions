@@ -1,8 +1,30 @@
+html {
+	color-scheme: dark light;
+}
+
 html, body {
-	width: 420px;
+	padding: 10px 20px;
+}
+
+table {
+	width: 100%;
+}
+
+td:last-child {
+	display: flex;
+	justify-content: flex-end;
 }
 
 .option {
 	margin-top: 0.9em;
 	margin-bottom: 0.9em;
+}
+
+.option-disable {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-add {
+	margin-top: 4px;
 }

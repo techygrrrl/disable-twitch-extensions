@@ -76,7 +76,7 @@ function generateExtensionAddHTML(id) {
 function generateAddButtons() {
 	let html = '';
 	html += generateExtensionAddHTML('allowListAddSelect');
-	html += ' <button id="allowListAddButton">Add</button>';
+	html += ' <button class="btn-add" id="allowListAddButton">Add</button>';
 
 	// Set page content
 	document.querySelector('#allowlistAdd').innerHTML = html;
@@ -84,7 +84,7 @@ function generateAddButtons() {
 
 
 	html = generateExtensionAddHTML('forbidListAddSelect');
-	html += ' <button id="forbidListAddButton">Add</button>';
+	html += ' <button class="btn-add" id="forbidListAddButton">Add</button>';
 
 	// Set page content
 	document.querySelector('#forbidlistAdd').innerHTML = html;
